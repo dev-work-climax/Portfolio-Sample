@@ -45,7 +45,7 @@ const config = {
     linkedin: "https://www.linkedin.com/in/Harold0107/",
     instagram: "https://www.instagram.com/hotchaddi",
     facebook: "https://www.facebook.com/HotChaddi/",
-    github: "https://github.com/Harold0107",
+    github: "https://github.com/dev-work-climax",
   },
 };
 export { config };

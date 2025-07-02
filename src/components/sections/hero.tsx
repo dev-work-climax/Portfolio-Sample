@@ -76,7 +76,10 @@ const HeroSection = () => {
                       "cursor-default font-display sm:text-xl md:text-xl whitespace-nowrap bg-clip-text "
                     )}
                   >
-                    A Full Stack Web Developer
+                    Senior Software Engineer
+                  </p>
+                  <p>
+                  A seasoned senior software developer 🎓 with a master's degree in computer science 🌍 based in the United States, bringing over 6 years of full-stack expertise, 4+ years mastering AI technologies 🤖 (including ML, DL, and RL), deep specialization in web scraping and automation 🕸️, and 3+ years innovating on blockchain solutions across layer1 and layer2 ⛓️—all backed by robust DevOps, CI/CD, and cloud infrastructure know-how ☁️ with AWS, DigitalOcean, GCP, and Azure.
                   </p>
                 </BlurIn>
               </div>
