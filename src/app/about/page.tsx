@@ -305,11 +305,7 @@ function Page() {
           >
             <h1 className="text-3xl mb-10 lg:md-20">About me</h1>
             <p className="mb-10 text-roboto">
-              Hey there! I&apos;m Naresh, a Fullstack developer passionate about
-              creating meaningful digital experiences. With great in Web
-              development, I thrive on turning ideas into reality through coding
-              and design. My journey began with a fascination for technology and
-              a drive to make a positive impact.
+              Hey there! I&apos;m Harold, a A seasoned senior software developer 🎓 with a master's degree in computer science 🌍 based in the United States, bringing over 6 years of full-stack expertise, 4+ years mastering AI technologies 🤖 (including ML, DL, and RL), deep specialization in web scraping and automation 🕸️, and 3+ years innovating on blockchain solutions across layer1 and layer2 ⛓️—all backed by robust DevOps, CI/CD, and cloud infrastructure know-how ☁️ with AWS, DigitalOcean, GCP, and Azure..
             </p>
             <p className="mb-10">
               When I&apos;m not coding, you can find me [Your
