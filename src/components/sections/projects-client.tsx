@@ -15,8 +15,8 @@ interface ProjectsSectionClientProps {
   projects: Project[];
 }
 
-const ProjectsSectionClient = ({ projects }: ProjectsSectionClientProps) => {
-  return <ProjectsSection projects={projects} />;
+const ProjectsSectionClient = () => {
+  return <ProjectsSection />;
 };
 
 export default ProjectsSectionClient; 
