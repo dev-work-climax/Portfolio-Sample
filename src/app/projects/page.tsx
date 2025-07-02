@@ -1,3 +1,5 @@
+import type { Metadata } from "next";
+
 "use client";
 import Image from "next/image";
 import Link from "next/link";
@@ -7,7 +9,6 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css/core";
 
 import "@splidejs/react-splide/css";
-import type { Metadata } from "next";
 import { config } from "@/data/config";
 
 const PROJECTS = [
