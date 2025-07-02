@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+// import type { Metadata } from "next";
 
 "use client";
 import React, { useEffect, useState } from "react";
@@ -44,20 +44,20 @@ import { TbTerminal2 } from "react-icons/tb";
 
 import { config } from "@/data/config";
 
-export const metadata: Metadata = {
-  title: "About",
-  description: "Learn more about Harold Pinter, a full-stack developer and creative technologist. Discover my background, skills, and passion for building innovative web experiences.",
-  keywords: ["about", "developer", "portfolio", "background", "experience", "skills"],
-  openGraph: {
-    title: "About Harold Pinter",
-    description: "Learn more about Harold Pinter, a full-stack developer and creative technologist.",
-    url: `${config.site}/about`,
-  },
-  twitter: {
-    title: "About Harold Pinter",
-    description: "Learn more about Harold Pinter, a full-stack developer and creative technologist.",
-  },
-};
+// export const metadata: Metadata = {
+//   title: "About",
+//   description: "Learn more about Harold Pinter, a full-stack developer and creative technologist. Discover my background, skills, and passion for building innovative web experiences.",
+//   keywords: ["about", "developer", "portfolio", "background", "experience", "skills"],
+//   openGraph: {
+//     title: "About Harold Pinter",
+//     description: "Learn more about Harold Pinter, a full-stack developer and creative technologist.",
+//     url: `${config.site}/about`,
+//   },
+//   twitter: {
+//     title: "About Harold Pinter",
+//     description: "Learn more about Harold Pinter, a full-stack developer and creative technologist.",
+//   },
+// };
 
 const CONTACT_LINKS = [
   {

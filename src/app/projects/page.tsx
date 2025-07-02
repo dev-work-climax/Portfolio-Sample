@@ -1,5 +1,3 @@
-import type { Metadata } from "next";
-
 "use client";
 import Image from "next/image";
 import Link from "next/link";
@@ -9,6 +7,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css/core";
 
 import "@splidejs/react-splide/css";
+// import type { Metadata } from "next";
 import { config } from "@/data/config";
 
 const PROJECTS = [
@@ -64,20 +63,20 @@ best deals on luxury brands and products. Join our savvy community of shoppers a
   },
 ];
 
-export const metadata: Metadata = {
-  title: "Projects",
-  description: "Explore Harold Pinter's portfolio of innovative projects including Coding Ducks, The Booking Desk, Ghostchat, and more. See full-stack development and creative technology in action.",
-  keywords: ["projects", "portfolio", "Coding Ducks", "web development", "full-stack", "applications"],
-  openGraph: {
-    title: "Projects - Harold Pinter",
-    description: "Explore innovative projects including Coding Ducks, The Booking Desk, and more.",
-    url: `${config.site}/projects`,
-  },
-  twitter: {
-    title: "Projects - Harold Pinter",
-    description: "Explore innovative projects including Coding Ducks, The Booking Desk, and more.",
-  },
-};
+// export const metadata: Metadata = {
+//   title: "Projects",
+//   description: "Explore Harold Pinter's portfolio of innovative projects including Coding Ducks, The Booking Desk, Ghostchat, and more. See full-stack development and creative technology in action.",
+//   keywords: ["projects", "portfolio", "Coding Ducks", "web development", "full-stack", "applications"],
+//   openGraph: {
+//     title: "Projects - Harold Pinter",
+//     description: "Explore innovative projects including Coding Ducks, The Booking Desk, and more.",
+//     url: `${config.site}/projects`,
+//   },
+//   twitter: {
+//     title: "Projects - Harold Pinter",
+//     description: "Explore innovative projects including Coding Ducks, The Booking Desk, and more.",
+//   },
+// };
 
 function Page() {
   return (
