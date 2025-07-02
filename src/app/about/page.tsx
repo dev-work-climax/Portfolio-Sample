@@ -61,8 +61,8 @@ import { config } from "@/data/config";
 const CONTACT_LINKS = [
   {
     name: "Email",
-    content: "naresh.khatri2345@gmail",
-    href: "mailto:naresh.khatri2345@gmail.com",
+    content: "harold712.dev.work@gmail.com",
+    href: "mailto:harold712.dev.work@gmail.com",
     icon: <FaEnvelope height={"50px"} />,
   },
   {
@@ -73,14 +73,14 @@ const CONTACT_LINKS = [
   },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/naresh-khatri/",
-    content: "/naresh-khatri",
+    href: "https://www.linkedin.com/in/harold-pinter/",
+    content: "/harold-pinter",
     icon: <FaLinkedin height={"50px"} />,
   },
   {
     name: "GitHub",
-    href: "https://github.com/Naresh-Khatri",
-    content: "/naresh-khatri",
+    href: "https://github.com/dev-work-climax",
+    content: "/dev-work-climax",
     icon: <FaGithub height={"50px"} />,
   },
 ];
