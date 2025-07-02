@@ -24,9 +24,9 @@ async function MainPage() {
           <AnimatedBackgroundClient />
         </div>
         <HeroSectionClient />
-        <SkillsSectionServer skills={skillsData.skills} />
-        <ProjectsSectionClient projects={projectsData.projects} />
-        <ContactSectionClient metadata={metadata} />
+        <SkillsSectionServer  />
+        <ProjectsSectionClient  />
+        <ContactSectionClient />
       </main>
     </SmoothScrollClient>
   );
