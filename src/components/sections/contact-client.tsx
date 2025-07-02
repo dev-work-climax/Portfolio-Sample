@@ -13,8 +13,8 @@ interface ContactSectionClientProps {
   metadata: Metadata;
 }
 
-const ContactSectionClient = ({ metadata }: ContactSectionClientProps) => {
-  return <ContactSection metadata={metadata} />;
+const ContactSectionClient = () => {
+  return <ContactSection />;
 };
 
 export default ContactSectionClient; 

@@ -34,10 +34,10 @@ export async function fetchSkills() {
 }
 
 export async function fetchSiteMetadata() {
-  return {
+  return [{
     title: config.title,
     description: config.description.long,
     author: config.author,
     email: config.email,
-  };
+  }];
 } 

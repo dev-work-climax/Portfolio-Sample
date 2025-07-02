@@ -26,7 +26,7 @@ async function MainPage() {
         <HeroSectionClient />
         <SkillsSectionServer  />
         <ProjectsSectionClient projects={projectsData.projects} />
-        <ContactSectionClient metadata={metadata} />
+        <ContactSectionClient />
       </main>
     </SmoothScrollClient>
   );
