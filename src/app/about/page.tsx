@@ -1,5 +1,3 @@
-// import type { Metadata } from "next";
-
 "use client";
 import React, { useEffect, useState } from "react";
 import { DiMongodb, DiNginx, DiNpm, DiPostgresql, DiVim } from "react-icons/di";
@@ -42,6 +40,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import { TbTerminal2 } from "react-icons/tb";
 
+// import type { Metadata } from "next";
 import { config } from "@/data/config";
 
 // export const metadata: Metadata = {

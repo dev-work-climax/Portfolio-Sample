@@ -24,7 +24,7 @@ async function MainPage() {
           <AnimatedBackgroundClient />
         </div>
         <HeroSectionClient />
-        <SkillsSectionServer  />
+        <SkillsSectionServer skills={skillsData.skills} />
         <ProjectsSectionClient />
         <ContactSectionClient />
       </main>

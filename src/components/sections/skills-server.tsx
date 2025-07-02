@@ -2,7 +2,15 @@ import Link from "next/link";
 import React from "react";
 import { cn } from "@/lib/utils";
 
-const SkillsSectionServer = () => {
+interface Skill {
+  name: string;
+  category: string;
+}
+interface SkillsSectionServerProps {
+  skills: Skill[];
+}
+
+const SkillsSectionServer = ({ skills }: SkillsSectionServerProps) => {
   return (
     <section id="skills" className="w-full h-screen md:h-[150dvh]">
       <div className="top-[70px] sticky mb-96">
