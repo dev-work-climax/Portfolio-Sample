@@ -29,7 +29,7 @@ const config = {
   ],
   author: "Harold Pinter",
   email: "harold.dev.work@proton.me",
-  site: "https://HaroldPinter.site",
+  site: "https://portfolio-sample-k2u2.vercel.app/",
   siteName: "Harold Pinter Portfolio",
   language: "en-US",
   locale: "en_US",
