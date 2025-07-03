@@ -12,7 +12,7 @@ export async function fetchProjects() {
         category: "Coding platform",
         description: "LeetCode + CodePen + CSS Battles",
         live: "https://www.codingducks.xyz/",
-        github: "https://github.com/Naresh-Khatri/Coding-Ducks",
+        github: "https://github.com/dev-work-climax/Coding-Ducks",
       },
       // Add more projects as needed
     ],
