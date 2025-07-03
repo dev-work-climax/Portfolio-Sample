@@ -28,7 +28,7 @@ const HeroSection = () => {
             "pt-28 sm:pt-0 sm:pb-32 md:p-24 lg:p-40 xl:p-48"
           )}
         >
-          {!isLoading && (
+          {!isLoading && ( 
             <>
               <div className="">
                 <BlurIn delay={0.7}>

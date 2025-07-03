@@ -1,4 +1,5 @@
 "use client";
+import {cn} from "@/lib/utils";
 import React, { useEffect, useState } from "react";
 import { DiMongodb, DiNginx, DiNpm, DiPostgresql, DiVim } from "react-icons/di";
 import {
@@ -67,8 +68,8 @@ const CONTACT_LINKS = [
   },
   {
     name: "Phone",
-    content: "1234567890",
-    href: "tel:1234567890",
+    content: "+1 7622389997",
+    href: "tel:+1 7622389997",
     icon: <FaPhone height={"50px"} />,
   },
   {
@@ -251,7 +252,8 @@ function Page() {
     setToolsLoaded(true);
   }, []);
   return (
-    <div className="container mx-auto px-4 md:px-[50px] xl:px-[200px] text-zinc-300 pt-20 pb-20">
+    <main className={cn("bg-slate-100 dark:bg-transparent")}>
+    <div className="container mx-auto px-4 md:px-[50px] xl:px-[200px] text-foreground pt-20 pb-20">
       <div className="flex flex-col lg:flex-row gap-5">
         <aside className="w-full md:basis-1/4">
           <div
@@ -271,7 +273,7 @@ function Page() {
               <div className="flex flex-col gap-3 lg:items-center ml-10 md:ml-20 lg:ml-0">
                 <p className="text-center text-xl">Harold Pinter</p>
                 <div className="text-xs bg-zinc-700 w-fit px-3 py-1 rounded-full">
-                  Web Developer
+                  Senior Software Engineer
                 </div>
               </div>
             </div>
@@ -300,10 +302,10 @@ function Page() {
         </aside>
         <main className="basis-3/4 w-[500px]">
           <div
-            className="p-10 border-[.5px] rounded-md border-zinc-600"
+            className="p-10 border-[.5px] rounded-md border-zinc-600 "
             style={{ backdropFilter: "blur(2px)" }}
           >
-            <h1 className="text-3xl mb-10 lg:md-20">About me</h1>
+            <h1 className="text-3xl mb-10 lg:md-20 ">About me</h1>
             <p className="mb-10 text-roboto">
               Hey there! I&apos;m Harold, a A seasoned senior software developer 🎓 with a master&apos;s degree in computer science 🌍 based in the United States, bringing over 6 years of full-stack expertise, 4+ years mastering AI technologies 🤖 (including ML, DL, and RL), deep specialization in web scraping and automation 🕸️, and 3+ years innovating on blockchain solutions across layer1 and layer2 ⛓️—all backed by robust DevOps, CI/CD, and cloud infrastructure know-how ☁️ with AWS, DigitalOcean, GCP, and Azure..
             </p>
@@ -377,6 +379,7 @@ function Page() {
         </main>
       </div>
     </div>
+    </main>
   );
 }
 
