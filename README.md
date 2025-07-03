@@ -67,3 +67,11 @@ This site is deployed on Vercel. For your own deployment, follow these steps:
 ## 🤝 Contributing
 
 If you'd like to contribute or suggest improvements, feel free to open an issue or submit a pull request. All contributions are welcome!
+
+## CI/CD
+
+This project will use GitHub Actions for CI/CD to:
+- Deploy to Vercel on push to main
+- Build and push a Docker image to Docker Hub on release
+
+See the `.github/workflows/` directory for workflow details.
