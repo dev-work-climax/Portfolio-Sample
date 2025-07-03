@@ -13,7 +13,7 @@ WORKDIR /app
 
 # Copy the standalone output from Next.js
 COPY --from=builder /app/public ./public
-COPY --from=builder /app/.next/standalone ./
+COPY --from=builder /app/.next ./
 COPY --from=builder /app/.next/static ./.next/static
 
 EXPOSE 3000
