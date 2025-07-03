@@ -16,8 +16,16 @@ import SocketContextProvider from "@/contexts/socketio";
 import RemoteCursors from "@/components/realtime/remote-cursors";
 import StructuredData from "@/components/seo/structured-data";
 
+let metadataBaseUrl: URL;
+try {
+  metadataBaseUrl = new URL(config.site);
+} catch (e) {
+  console.warn('Invalid config.site for metadataBase, using fallback http://localhost:3000');
+  metadataBaseUrl = new URL('http://localhost:3000');
+}
+
 export const metadata: Metadata = {
-  metadataBase: new URL(config.site),
+  metadataBase: metadataBaseUrl,
   title: {
     default: config.title,
     template: `%s | ${config.author}`,
