@@ -3,7 +3,7 @@ import { config } from "@/data/config";
 import { Resend } from "resend";
 import { z } from "zod";
 
-const resend = new Resend("re_FVCKCbSX_863M2iMJENqKu4BN7c2tm7vM");
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 const Email = z.object({
   fullName: z.string().min(2, "Full name is invalid!"),
