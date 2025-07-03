@@ -20,9 +20,9 @@ const Index: React.FC<IndexProps> = ({ src, isActive }) => {
     >
       <Image
         src={src}
-        width={400}
-        height={400}
-        className="my-32 w-full h-auto object-cover"
+        width={200}
+        height={200}
+        className="my-32 w-full object-cover"
         alt={"Image"}
         // priority={true}
       />

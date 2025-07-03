@@ -5,6 +5,8 @@ import AnimatedBackgroundClient from "@/components/animated-background-client";
 import SkillsSectionServer from "@/components/sections/skills-server";
 import ProjectsSectionClient from "@/components/sections/projects-client";
 import ContactSectionClient from "@/components/sections/contact-client";
+import ExperienceSectionClient from "@/components/sections/experience-client";
+import EducationSectionClient from "@/components/sections/education-client";
 import HeroSectionClient from "@/components/sections/hero-client";
 import { fetchProjects, fetchSkills, fetchSiteMetadata } from "@/lib/data-fetching";
 
@@ -26,6 +28,8 @@ async function MainPage() {
         <HeroSectionClient />
         <SkillsSectionServer skills={skillsData.skills} />
         <ProjectsSectionClient />
+        <ExperienceSectionClient />
+        <EducationSectionClient />
         <ContactSectionClient />
       </main>
     </SmoothScrollClient>

@@ -18,7 +18,7 @@ const links: Link[] = [
   },
   {
     title: 'Projects',
-    href: '/projects',
+    href: '/#projects',
     thumbnail: '/assets/nav-link-previews/projects.png'
   },
   // {
@@ -33,7 +33,7 @@ const links: Link[] = [
   // },
   // {
   //   title: 'Blogs',
-  //   href: '/blog',
+  //   href: '/blogs',
   //   thumbnail: '/assets/nav-link-previews/blog.png',
   // },
   {

@@ -2,6 +2,8 @@
 
 import AnimatedBackground from "./animated-background";
 
+
+
 const AnimatedBackgroundClient = () => {
   return <AnimatedBackground />;
 };
