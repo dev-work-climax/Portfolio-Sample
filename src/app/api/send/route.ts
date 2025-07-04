@@ -28,7 +28,7 @@ export async function POST(req: Request) {
       subject: "Contact me from portfolio",
       react: EmailTemplate({
         fullName: zodData.fullName,
-        email: zodData.email,
+        email: zodData.email, 
         message: zodData.message,
       }),
     });
