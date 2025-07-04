@@ -41,7 +41,7 @@ const config = {
   },
   
   social: {
-    discord: "climax0173_47897",
+    twitter: "https://x.com/hpintertheatre",
     linkedin: "https://www.linkedin.com/in/Harold0107/",
     instagram: "https://www.instagram.com/hotchaddi",
     facebook: "https://www.facebook.com/HotChaddi/",

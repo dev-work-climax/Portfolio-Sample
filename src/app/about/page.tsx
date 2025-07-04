@@ -43,6 +43,7 @@ import { TbTerminal2 } from "react-icons/tb";
 
 // import type { Metadata } from "next";
 import { config } from "@/data/config";
+import ScrollToTop from "@/components/scroll-to-top";
 
 // export const metadata: Metadata = {
 //   title: "About",
@@ -379,6 +380,7 @@ function Page() {
         </main>
       </div>
     </div>
+    <ScrollToTop />
     </main>
   );
 }

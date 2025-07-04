@@ -6,43 +6,45 @@ import Link from "next/link";
 const ExperienceSection = () => {
   const experiences = [
     {
-      title: "Senior AI Engineer",
-      company: "TechVision AI",
+      title: "Senior Software Engineer",
+      company: "Rigetti",
       period: "2022 - Present",
       description:
-        "Leading the development of computer vision solutions for autonomous systems. Built and deployed ML models that process over 1M images daily with 99.2% accuracy.",
+        "Engaged in architecting scalable cloud infrastructures, integrating robust OpenAI-powered LLM solutions, and developing responsive React frontends to optimize operational efficiency and elevate user experiences.",
       achievements: [
-        "Developed a real-time object detection system reducing processing time by 60%",
-        "Led a team of 5 engineers in building MLOps infrastructure",
-        "Published 3 research papers in top-tier AI conferences",
+        "Infrastructure: Architected scalable cloud systems (AWS/GCP) and automated CI/CD pipelines (Docker, Kubernetes, Terraform) to improve reliability and reduce downtime by 40%.",
+        "LLM Projects: Integrated OpenAI‑powered solutions for dynamic customer support and automated workflows, boosting operational efficiency by 30%.",
+        "Leadership: Mentored team members on best practices and agile methodologies, driving continuous improvement across projects."
       ],
-      technologies: ["PyTorch", "CUDA", "Kubernetes", "MLflow", "AWS"],
+      technologies: ["React", "OpenAI", "LLM", "CI/CD", "AWS/GCP"],
     },
     {
       title: "Senior Software Engineer",
-      company: "DataFlow Solutions",
+      company: "Viam",
       period: "2020 - 2022",
       description:
-        "Designed and implemented end-to-end ML pipelines for natural language processing applications. Specialized in transformer architectures and large language models.",
+        "As a Senior Fullstack Software Engineer, I architect scalable web applications with React and Node.js, automate cloud deployments via CI/CD pipelines on AWS, and lead AI initiatives, including deploying retrieval-augmented generation (RAG) projects with Viam.",
       achievements: [
-        "Built a custom NLP pipeline processing 10M+ documents monthly",
-        "Improved model inference speed by 40% through optimization techniques",
-        "Mentored junior engineers and established ML best practices",
+        "Developed and maintained scalable web applications using React for frontend and Node.js for backend services.",
+        "Automated cloud deployments with CI/CD pipelines on AWS/GCP.",
+        "Implemented AI projects, including retrieval-augmented generation (RAG) with Viam, to optimize data retrieval and decision-making.",
+        "Collaborated with cross-functional teams to enhance user experience and operational efficiency.",
       ],
-      technologies: ["TensorFlow", "Transformers", "Docker", "GCP", "Python"],
+      technologies: ["Automation", "React", "AWS/GCP", "RAG", "UI/UX"],
     },
     {
-      title: "Python Developer",
-      company: "Stanford AI Lab",
+      title: "Software Engineer(Remote)",
+      company: "Hellas Direct",
       period: "2019 - 2020",
       description:
-        "Conducted research on generative adversarial networks and their applications in computer vision. Contributed to open-source projects and academic publications.",
+        "Architect scalable Python backends, build dynamic React frontends, integrate AI solutions with OpenAI keys, and implement efficient web scraping workflows.",
       achievements: [
-        "Co-authored 2 papers on GANs published in CVPR and ICCV",
-        "Developed novel architectures for image-to-image translation",
-        "Contributed to PyTorch and TensorFlow open-source projects",
+        "Python Backend: Develop robust, scalable server-side systems.",
+        "React Frontend: Architect dynamic and responsive user interfaces.",
+        "AI Integration: Deploy innovative solutions leveraging OpenAI.",
+        "Web Scraping: Engineer efficient workflows for reliable data extraction.,"
       ],
-      technologies: ["PyTorch", "GANs", "Computer Vision", "Research", "Python"],
+      technologies: ["Python", "React", "AI", "Open AI", "Scraping"],
     },
   ]
 

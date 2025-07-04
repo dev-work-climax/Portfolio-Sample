@@ -11,7 +11,7 @@ export async function fetchProjects() {
         title: "Coding Ducks",
         category: "Coding platform",
         description: "LeetCode + CodePen + CSS Battles",
-        live: "https://www.codingducks.xyz/",
+        live: "https://coding-ducks.vercel.app/",
         github: "https://github.com/dev-work-climax/Coding-Ducks",
       },
       // Add more projects as needed

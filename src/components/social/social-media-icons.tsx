@@ -12,22 +12,22 @@ const BUTTONS = [
   {
     name: "Github",
     href: config.social.github,
-    icon: <SiGithub size={"24"} color={"#f2f"} />,
+    icon: <SiGithub size={"24"} color={"#333"} />,
   },
   {
     name: "LinkedIn",
     href: config.social.linkedin,
-    icon: <SiLinkedin size={"24"} color={"#2f2"} />,
+    icon: <SiLinkedin size={"24"} color={"#0077B5"} />,
   },
   {
     name: "Twitter",
-    href: config.social.discord,
-    icon: <SiTwitter size={"24"} color={"#99f"} />,
+    href: config.social.twitter,
+    icon: <SiTwitter size={"24"} color={"#1DA1F2"} />,
   },
   {
     name: "Instagram",
     href: config.social.instagram,
-    icon: <SiInstagram size={"24"} color={"#f8a"} />,
+    icon: <SiInstagram size={"24"} color={"#E4405F"} />,
   },
 ];
 

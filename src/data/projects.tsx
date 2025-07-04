@@ -258,7 +258,7 @@ const projects: Project[] = [
         PROJECT_SKILLS.sockerio,
       ],
     },
-    live: "https://www.codingducks.xyz/",
+    live: "https://coding-ducks.vercel.app/",
     github: "https://github.com/dev-work-climax/Coding-Ducks",
     get content() {
       return (
@@ -500,7 +500,7 @@ const projects: Project[] = [
     title: "My Portfolio",
     src: "/assets/projects-screenshots/portfolio/landing.png",
     screenshots: ["1.png"],
-    live: "http://nareshkhatri.vercel.app",
+    live: "https://portfolio-sample-topaz.vercel.app/",
     github:"https://github.com/dev-work-climax/Portfolio",
     skills: {
       frontend: [

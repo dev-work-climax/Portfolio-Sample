@@ -23,9 +23,9 @@ function Page() {
     event.preventDefault()
     console.log(event)
   }
-  return (
-    <section>
-      <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+      return (
+      <section className="min-h-screen flex items-center justify-center">
+        <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md w-full">
         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-zinc-200">
           Contact Me
         </h2>

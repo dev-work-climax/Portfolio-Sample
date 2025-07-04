@@ -25,7 +25,7 @@ const HeroSection = () => {
             "h-[calc(100dvh-3rem)] md:h-[calc(100dvh-4rem)] z-[2]",
             "col-span-1",
             "flex flex-col justify-start md:justify-center items-center md:items-start",
-            "pt-28 sm:pt-0 sm:pb-32 md:p-24 lg:p-40 xl:p-48"
+            "pt-28 px-6 sm:pt-0 sm:pb-32 md:p-24 lg:p-40 xl:p-48"
           )}
         >
           {!isLoading && ( 
@@ -47,8 +47,8 @@ const HeroSection = () => {
                     <TooltipTrigger asChild>
                       <h1
                         className={cn(
-                          "font-thin text-6xl text-transparent text-slate-800 ml-1 text-left",
-                          "cursor-default text-edge-outline font-display sm:text-7xl md:text-9xl "
+                          "font-thin text-5xl text-transparent text-slate-800 ml-1 text-left",
+                          "cursor-default text-edge-outline font-display sm:text-7xl md:text-8xl "
                         )}
                       >
                         {config.author.split(" ")[0]}
@@ -78,7 +78,7 @@ const HeroSection = () => {
                   >
                     Senior Software Engineer
                   </p>
-                  <p>
+                  <p className="font-normal text-base md:text-lg text-slate-600 dark:text-zinc-300 mt-4 max-w-2xl">
                   A seasoned senior software developer 🎓 with a master&apos;s degree in computer science 🌍 based in the United States, bringing over 6 years of full-stack expertise, 4+ years mastering AI technologies 🤖 (including ML, DL, and RL), deep specialization in web scraping and automation 🕸️, and 3+ years innovating on blockchain solutions across layer1 and layer2 ⛓️—all backed by robust DevOps, CI/CD, and cloud infrastructure know-how ☁️ with AWS, DigitalOcean, GCP, and Azure.
                   </p>
                 </BlurIn>
@@ -99,21 +99,14 @@ const HeroSection = () => {
                   </BoxReveal>
                 </Link>
                 <div className="md:self-start flex gap-3">
-                  <Tooltip delayDuration={300}>
-                    <TooltipTrigger asChild>
-                      <Link href={"#contact"}>
-                        <Button
-                          variant={"outline"}
-                          className="block w-full overflow-hidden"
-                        >
-                          Hire Me
-                        </Button>
-                      </Link>
-                    </TooltipTrigger>
-                    <TooltipContent side="bottom">
-                      <p>pls 🥹 🙏</p>
-                    </TooltipContent>
-                  </Tooltip>
+                  <Link href={"#contact"}>
+                    <Button
+                      variant={"outline"}
+                      className="block w-full overflow-hidden"
+                    >
+                      Hire Me
+                    </Button>
+                  </Link>
                   <Link
                     href={config.social.github}
                     target="_blank"
