@@ -20,7 +20,7 @@ export async function POST(req: Request) {
       error: zodError,
     } = Email.safeParse(body);
     if (!zodSuccess)
-      return Response.json({ error: zodError?.message }, { status: 400 });
+      return Response.json({ error: zodError?.message }, { status: 200 });
 
     const { data: resendData, error: resendError } = await resend.emails.send({
       from: body.email,
@@ -34,11 +34,11 @@ export async function POST(req: Request) {
     });
 
     if (resendError) {
-      return Response.json({ resendError }, { status: 500 });
+      return Response.json({ resendError }, { status: 200 });
     }
 
     return Response.json(resendData);
   } catch (error) {
-    return Response.json({ error }, { status: 500 });
+    return Response.json({ error }, { status: 200 });
   }
 }
