@@ -12,23 +12,24 @@ const ExperienceSection = () => {
       description:
         "Engaged in architecting scalable cloud infrastructures, integrating robust OpenAI-powered LLM solutions, and developing responsive React frontends to optimize operational efficiency and elevate user experiences.",
       achievements: [
-        "Infrastructure: Architected scalable cloud systems (AWS/GCP) and automated CI/CD pipelines (Docker, Kubernetes, Terraform) to improve reliability and reduce downtime by 40%.",
-        "LLM Projects: Integrated OpenAI‑powered solutions for dynamic customer support and automated workflows, boosting operational efficiency by 30%.",
-        "Leadership: Mentored team members on best practices and agile methodologies, driving continuous improvement across projects."
+        "Architected scalable cloud systems on AWS and GCP, automating CI/CD pipelines with Docker, Kubernetes, and Terraform, reducing downtime by 40%.",
+        "Integrated OpenAI-powered solutions to enhance customer support and automate workflows, increasing operational efficiency by 30%.",
+        "Mentored team members in best practices and agile methodologies to foster continuous improvement across projects.",
+        "Enhanced system performance using advanced coding techniques.",
       ],
       technologies: ["React", "OpenAI", "LLM", "CI/CD", "AWS/GCP"],
     },
     {
       title: "Senior Software Engineer",
-      company: "Viam",
+      company: "Axiado",
       period: "2020 - 2022",
       description:
         "As a Senior Fullstack Software Engineer, I architect scalable web applications with React and Node.js, automate cloud deployments via CI/CD pipelines on AWS, and lead AI initiatives, including deploying retrieval-augmented generation (RAG) projects with Viam.",
       achievements: [
-        "Developed and maintained scalable web applications using React for frontend and Node.js for backend services.",
-        "Automated cloud deployments with CI/CD pipelines on AWS/GCP.",
-        "Implemented AI projects, including retrieval-augmented generation (RAG) with Viam, to optimize data retrieval and decision-making.",
-        "Collaborated with cross-functional teams to enhance user experience and operational efficiency.",
+        "Developed and maintained scalable web applications using React and Node.js.",
+        "Automated cloud deployments with CI/CD pipelines on AWS and GCP.",
+        "Implemented AI projects, including retrieval-augmented generation (RAG), to optimise data retrieval.",
+        "Collaborated with cross-functional teams to enhance user experience and operational efficiency.,",
       ],
       technologies: ["Automation", "React", "AWS/GCP", "RAG", "UI/UX"],
     },
@@ -39,10 +40,10 @@ const ExperienceSection = () => {
       description:
         "Architect scalable Python backends, build dynamic React frontends, integrate AI solutions with OpenAI keys, and implement efficient web scraping workflows.",
       achievements: [
-        "Python Backend: Develop robust, scalable server-side systems.",
-        "React Frontend: Architect dynamic and responsive user interfaces.",
-        "AI Integration: Deploy innovative solutions leveraging OpenAI.",
-        "Web Scraping: Engineer efficient workflows for reliable data extraction.,"
+        "Developed scalable server-side systems using Python, ensuring high performance.",
+        "Architected dynamic user interfaces with React, enhancing user engagement.",
+"        Deployed innovative solutions leveraging OpenAI for advanced AI integration.",
+        "Engineered efficient workflows for reliable data extraction through web scraping."
       ],
       technologies: ["Python", "React", "AI", "Open AI", "Scraping"],
     },

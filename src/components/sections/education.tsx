@@ -11,7 +11,7 @@ const ExperienceSection = () => {
       period: "2012 - 2015",
     },
     {
-      title: "Yale University United States ",
+      title: "Yale University",
       company: "Master's Degree in computer science",
       period: "2015 - 2018",
     },
