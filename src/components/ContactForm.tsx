@@ -33,8 +33,8 @@ const ContactForm = () => {
           message,
         }),
       });
-      const data = await res.json();
-      if (data.error) throw new Error(data.error);
+      // const data = await res.json();
+      // if (data.error) throw new Error(data.error);
       toast({
         title: "Thank you!",
         description: "I'll get back to you as soon as possible.",
