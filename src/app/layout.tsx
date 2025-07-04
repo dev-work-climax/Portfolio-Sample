@@ -15,6 +15,7 @@ import { config } from "@/data/config";
 import SocketContextProvider from "@/contexts/socketio";
 import RemoteCursors from "@/components/realtime/remote-cursors";
 import StructuredData from "@/components/seo/structured-data";
+import ScrollToTop from "@/components/scroll-to-top";
 
 
 export const metadata: Metadata = {
@@ -130,6 +131,7 @@ export default function RootLayout({
                 <Header />
                 {children}
                 <Footer />
+                <ScrollToTop />
               </TooltipProvider>
             {/* </SocketContextProvider> */}
             <Toaster />
